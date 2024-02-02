@@ -26,9 +26,12 @@ function App() {
     <>
       <h1>chai aur react </h1>
       <h2>counter value : {counter}</h2>
-
+      { /* reference of function is passed because we want that 
+      when we click then the function execute 
+      if we pass addvalue() then the function will excute imidiatily  */}
       <button
       onClick={addValue}>Add value</button>
+      <br />
       <br />
       <button onClick={removeValue}>remove value</button>
     </>
